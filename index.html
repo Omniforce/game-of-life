@@ -1,0 +1,30 @@
+<head>	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+	<div id="wrapper">
+		<div id="titleTitle" class="title">
+			<h1>Conway's Game of Life</h1>
+		</div>
+		<div id="world">
+			<canvas id="canvas"></canvas>		
+		</div>
+		<div id="info">
+			<div id="infoTitle" class="title"><h2>Stats</h2></div>
+			<div id="data">
+				<span id="generation">Generation: <span id="number">0</span></span>
+				<span id="liveCells">Live cells: <span id="number">0</span></span>
+			</div>
+		</div>
+		<div id="controls">
+			<div id="controlsTitle" class="title"><h2>Controls</h2></div>
+			<div id="buttons">
+				<button id="run">Run</button>
+				<button id="step">Step</button>
+				<button id="clear">Clear</button>
+			</div>
+		</div>
+	</div>
+</body>
